@@ -203,6 +203,140 @@
           "fadeOut": 0.8
         }
       ]
+    },
+    {
+      "id": "ui3d",
+      "name": "3D UI",
+      "author": "barbedwire22, based on SamsaSushi's script",
+      "homepage": "https://github.com/barbiewire/3dUI_lib",
+      "version": "883f4ce",
+      "kind": "panel3d",
+      "description": "Puts the whole GUI on a panel that floats in front of the camera. It flies in, drifts while it sits there and drags behind when the camera turns, all on springs instead of tweens, so no two openings look the same. 12 fly-in presets and 13 button feels. Made for main menus and floating cameras.",
+      "entry": "ui3d",
+      "files": [
+        {
+          "name": "ui3d",
+          "url": "https://raw.githubusercontent.com/barbiewire/3dUI_lib/883f4ce10702d5d103b33528c208689fa5370206/src/ui3d.luau",
+          "hash": 3587963056,
+          "size": 19100
+        },
+        {
+          "name": "Presets",
+          "url": "https://raw.githubusercontent.com/barbiewire/3dUI_lib/883f4ce10702d5d103b33528c208689fa5370206/src/Presets.luau",
+          "hash": 1486319576,
+          "size": 9565,
+          "parent": "ui3d"
+        },
+        {
+          "name": "README",
+          "url": "https://raw.githubusercontent.com/barbiewire/3dUI_lib/883f4ce10702d5d103b33528c208689fa5370206/README.md",
+          "hash": 2401488432,
+          "size": 7850,
+          "text": true
+        }
+      ],
+      "styles": [
+        {
+          "name": "Spin",
+          "group": "open"
+        },
+        {
+          "name": "Slide",
+          "group": "open"
+        },
+        {
+          "name": "Flip",
+          "group": "open"
+        },
+        {
+          "name": "Swing",
+          "group": "open"
+        },
+        {
+          "name": "Rise",
+          "group": "open"
+        },
+        {
+          "name": "Fold",
+          "group": "open"
+        },
+        {
+          "name": "Orbit",
+          "group": "open"
+        },
+        {
+          "name": "Punch",
+          "group": "open"
+        },
+        {
+          "name": "Tumble",
+          "group": "open"
+        },
+        {
+          "name": "Drift",
+          "group": "open"
+        },
+        {
+          "name": "Helix",
+          "group": "open"
+        },
+        {
+          "name": "Blinds",
+          "group": "open"
+        },
+        {
+          "name": "Button",
+          "group": "button"
+        },
+        {
+          "name": "Pop",
+          "group": "button"
+        },
+        {
+          "name": "Tilt",
+          "group": "button"
+        },
+        {
+          "name": "Lift",
+          "group": "button"
+        },
+        {
+          "name": "Sink",
+          "group": "button"
+        },
+        {
+          "name": "Nudge",
+          "group": "button"
+        },
+        {
+          "name": "Squish",
+          "group": "button"
+        },
+        {
+          "name": "Glow",
+          "group": "button"
+        },
+        {
+          "name": "Jelly",
+          "group": "button"
+        },
+        {
+          "name": "Snap",
+          "group": "button"
+        },
+        {
+          "name": "Float",
+          "group": "button"
+        },
+        {
+          "name": "Recoil",
+          "group": "button"
+        },
+        {
+          "name": "Switch",
+          "group": "button"
+        }
+      ]
     }
   ]
 }
