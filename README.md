@@ -1,0 +1,27 @@
+# Motion Libraries
+
+The catalog the Motion plugin reads for its Libraries tab. Motion fetches `catalog.json` from this
+repository; each entry points at a library's own source on GitHub, pinned to a commit, with a
+checksum for every file. Motion downloads those files, checks them, and installs them into
+`ReplicatedStorage.MotionLibraries`. No library code is stored here.
+
+## Entry format
+
+| Field | Meaning |
+| --- | --- |
+| `id` | Folder name and style prefix (`spring/Bouncy`). Letters, digits, `-`, `_` |
+| `kind` | How Motion uses it: `easing-table` (a module returning `In<Style>` / `Out<Style>` / ... functions of 0..1) or `spring` (a module with `new(damping, frequency, position)`, `:setGoal`, `:step(dt)`) |
+| `entry` | The file Motion requires |
+| `files` | `name`, `url` (raw.githubusercontent.com at a full 40-character commit), `hash` (32-bit FNV-1a of the file's bytes), `size`; `text = true` stores the file as a StringValue (licences); `append` may add one `return <Name>` line for modules that do not return themselves |
+| `styles` | The styles it adds; spring styles also give `damping` and `frequency` |
+
+Motion ignores any entry that breaks these rules, so a bad entry can never install anything.
+
+## Libraries
+
+| Library | Licence | Source |
+| --- | --- | --- |
+| BoatTween Easing | MIT | https://github.com/boatbeaker/BoatTween |
+| Spring Easing | MIT | https://github.com/Fraktality/Spring |
+
+Each library keeps its own licence, which Motion installs alongside it.

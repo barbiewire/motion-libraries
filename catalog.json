@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "libraries": [
+    {
+      "id": "boattween",
+      "name": "BoatTween Easing",
+      "author": "boatbomber",
+      "license": "MIT",
+      "homepage": "https://github.com/boatbeaker/BoatTween",
+      "version": "503a21a",
+      "kind": "easing-table",
+      "description": "21 easing styles Roblox does not have: Smooth, Smoother, Material Design's Standard / Productive / Expressive curves, Fabric, UWP, Mozilla, Spring, SoftSpring, RevBack and RidiculousWiggle. Each works In, Out, InOut and OutIn.",
+      "entry": "TweenFunctions",
+      "files": [
+        {
+          "name": "TweenFunctions",
+          "url": "https://raw.githubusercontent.com/boatbeaker/BoatTween/503a21a20c8a0f08dce72eb3b81d8aea3dc1b58a/src/TweenFunctions.lua",
+          "hash": 88349848,
+          "size": 10984
+        },
+        {
+          "name": "Bezier",
+          "url": "https://raw.githubusercontent.com/boatbeaker/BoatTween/503a21a20c8a0f08dce72eb3b81d8aea3dc1b58a/src/Bezier.lua",
+          "hash": 2093871072,
+          "size": 2111
+        },
+        {
+          "name": "LICENSE",
+          "url": "https://raw.githubusercontent.com/boatbeaker/BoatTween/503a21a20c8a0f08dce72eb3b81d8aea3dc1b58a/LICENSE",
+          "hash": 3746855472,
+          "size": 1067,
+          "text": true
+        }
+      ],
+      "styles": [
+        {
+          "name": "Smooth"
+        },
+        {
+          "name": "Smoother"
+        },
+        {
+          "name": "Standard"
+        },
+        {
+          "name": "Sharp"
+        },
+        {
+          "name": "Acceleration"
+        },
+        {
+          "name": "Deceleration"
+        },
+        {
+          "name": "StandardProductive"
+        },
+        {
+          "name": "EntranceProductive"
+        },
+        {
+          "name": "ExitProductive"
+        },
+        {
+          "name": "StandardExpressive"
+        },
+        {
+          "name": "EntranceExpressive"
+        },
+        {
+          "name": "ExitExpressive"
+        },
+        {
+          "name": "FabricStandard"
+        },
+        {
+          "name": "FabricAccelerate"
+        },
+        {
+          "name": "FabricDecelerate"
+        },
+        {
+          "name": "UWPAccelerate"
+        },
+        {
+          "name": "MozillaCurve"
+        },
+        {
+          "name": "Spring"
+        },
+        {
+          "name": "SoftSpring"
+        },
+        {
+          "name": "RevBack"
+        },
+        {
+          "name": "RidiculousWiggle"
+        }
+      ]
+    },
+    {
+      "id": "spring",
+      "name": "Spring Easing",
+      "author": "Fractality",
+      "license": "MIT",
+      "homepage": "https://github.com/Fraktality/Spring",
+      "version": "d71c4f5",
+      "kind": "spring",
+      "description": "Real spring physics as easing, from the author of spr: a closed-form damped spring, so the editor and the game land on exactly the same frames. Gentle, Snappy, Bouncy and Wobbly springs.",
+      "entry": "Spring",
+      "files": [
+        {
+          "name": "Spring",
+          "url": "https://raw.githubusercontent.com/Fraktality/Spring/d71c4f558c2de47e7e3418af26b9bcbf194fefc6/Spring.lua",
+          "hash": 854297108,
+          "size": 3928,
+          "append": "return Spring"
+        }
+      ],
+      "styles": [
+        {
+          "name": "Gentle",
+          "damping": 1,
+          "frequency": 2
+        },
+        {
+          "name": "Snappy",
+          "damping": 0.8,
+          "frequency": 3.5
+        },
+        {
+          "name": "Bouncy",
+          "damping": 0.4,
+          "frequency": 2
+        },
+        {
+          "name": "Wobbly",
+          "damping": 0.25,
+          "frequency": 1.5
+        }
+      ]
+    }
+  ]
+}
